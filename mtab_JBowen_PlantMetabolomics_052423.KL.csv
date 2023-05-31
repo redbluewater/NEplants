@@ -1,4 +1,5 @@
-﻿Sample Type,File Name,Path,Instrument Method,Position,Inj Vol,Sample Name,ionMode,goodData,dilution,sample,replicate
+﻿leaveRowHere,,,,,,,,,,,
+Sample Type,File Name,Path,Instrument Method,Position,Inj Vol,Sample Name,ionMode,goodData,dilution,sample,replicate
 Blank,mtab_JBowen_Plants_2023_0524_01,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:A1,5,"MQ Blank pos (HSST3#15 05.24.23, probe 3)",pos,0,,,
 Blank,mtab_JBowen_Plants_2023_0524_02,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:A1,5,MQ Blank neg,neg,0,,,
 Unknown,mtab_JBowen_Plants_2023_0524_03,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:A2,5,"mtab mix 1-7, 1000ng/ml pos (no mix 8)",pos,0,,,
