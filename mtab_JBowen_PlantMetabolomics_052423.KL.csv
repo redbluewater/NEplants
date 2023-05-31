@@ -1,0 +1,63 @@
+﻿Sample Type,File Name,Path,Instrument Method,Position,Inj Vol,Sample Name,ionMode,goodData,dilution,sample,replicate
+Blank,mtab_JBowen_Plants_2023_0524_01,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:A1,5,"MQ Blank pos (HSST3#15 05.24.23, probe 3)",pos,0,,,
+Blank,mtab_JBowen_Plants_2023_0524_02,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:A1,5,MQ Blank neg,neg,0,,,
+Unknown,mtab_JBowen_Plants_2023_0524_03,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:A2,5,"mtab mix 1-7, 1000ng/ml pos (no mix 8)",pos,0,,,
+Unknown,mtab_JBowen_Plants_2023_0524_04,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:A2,5,"mtab mix 1-7, 1000ng/ml neg (no mix 8)",neg,0,,,
+Blank,mtab_JBowen_Plants_2023_0524_05,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:A1,5,MQ Blank pos,pos,0,,,
+Blank,mtab_JBowen_Plants_2023_0524_06,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:A1,5,MQ Blank neg,neg,0,,,
+Unknown,mtab_JBowen_Plants_2023_0524_07,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:B1,5,Bowen_dil3_pool pos,pos,0,,,
+Unknown,mtab_JBowen_Plants_2023_0524_08,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:B1,5,Bowen_dil3_pool pos,pos,0,,,
+Unknown,mtab_JBowen_Plants_2023_0524_09,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:B1,5,Bowen_dil3_pool pos,pos,0,3,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_10,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:B2,5,Bowen_dil3_SB1 pos,pos,0,3,SB,1
+Unknown,mtab_JBowen_Plants_2023_0524_11,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:B3,5,Bowen_dil3_Blank2 pos,pos,0,3,Blank,2
+Unknown,mtab_JBowen_Plants_2023_0524_12,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:B4,5,Bowen_dil3_TB3 pos,pos,0,3,TB,3
+Unknown,mtab_JBowen_Plants_2023_0524_13,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:B1,5,Bowen_dil3_pool pos,pos,0,3,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_14,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:B5,5,Bowen_dil3_TB2 pos,pos,0,3,TB,2
+Unknown,mtab_JBowen_Plants_2023_0524_15,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:B6,5,Bowen_dil3_Blank1 pos,pos,0,3,Blank,1
+Unknown,mtab_JBowen_Plants_2023_0524_16,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:B1,5,Bowen_dil3_pool pos,pos,0,3,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_17,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:B1,5,Bowen_dil3_pool neg,neg,1,3,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_18,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:B2,5,Bowen_dil3_SB1 neg,neg,1,3,SB,1
+Unknown,mtab_JBowen_Plants_2023_0524_19,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:B3,5,Bowen_dil3_Blank2 neg,neg,1,3,Blank,2
+Unknown,mtab_JBowen_Plants_2023_0524_20,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:B4,5,Bowen_dil3_TB3 neg,neg,1,3,TB,3
+Unknown,mtab_JBowen_Plants_2023_0524_21,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:B1,5,Bowen_dil3_pool neg,neg,1,3,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_22,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:B5,5,Bowen_dil3_TB2 neg,neg,1,3,TB,2
+Unknown,mtab_JBowen_Plants_2023_0524_23,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:B6,5,Bowen_dil3_Blank1 neg,neg,1,3,Blank,1
+Unknown,mtab_JBowen_Plants_2023_0524_24,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:B1,5,Bowen_dil3_pool neg,neg,1,3,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_25,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:C1,5,Bowen_dil2_pool pos,pos,0,,,
+Unknown,mtab_JBowen_Plants_2023_0524_26,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:C1,5,Bowen_dil2_pool pos,pos,0,,,
+Unknown,mtab_JBowen_Plants_2023_0524_27,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:C1,5,Bowen_dil2_pool pos,pos,0,2,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_28,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:C2,5,Bowen_dil2_SB1 pos,pos,0,2,SB,1
+Unknown,mtab_JBowen_Plants_2023_0524_29,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:C3,5,Bowen_dil2_Blank2 pos,pos,0,2,Blank,2
+Unknown,mtab_JBowen_Plants_2023_0524_30,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:C4,5,Bowen_dil2_TB3 pos,pos,0,2,TB,3
+Unknown,mtab_JBowen_Plants_2023_0524_31,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:C1,5,Bowen_dil2_pool pos,pos,0,2,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_32,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:C5,5,Bowen_dil2_TB2 pos,pos,0,2,TB,2
+Unknown,mtab_JBowen_Plants_2023_0524_33,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:C6,5,Bowen_dil2_Blank1 pos,pos,0,2,Blank,1
+Unknown,mtab_JBowen_Plants_2023_0524_34,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:C1,5,Bowen_dil2_pool pos,pos,0,2,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_35,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:C1,5,Bowen_dil2_pool neg,neg,1,2,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_36,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:C2,5,Bowen_dil2_SB1 neg,neg,1,2,SB,1
+Unknown,mtab_JBowen_Plants_2023_0524_37,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:C3,5,Bowen_dil2_Blank2 neg,neg,1,2,Blank,2
+Unknown,mtab_JBowen_Plants_2023_0524_38,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:C4,5,Bowen_dil2_TB3 neg,neg,1,2,TB,3
+Unknown,mtab_JBowen_Plants_2023_0524_39,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:C1,5,Bowen_dil2_pool neg,neg,1,2,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_40,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:C5,5,Bowen_dil2_TB2 neg,neg,1,2,TB,2
+Unknown,mtab_JBowen_Plants_2023_0524_41,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:C6,5,Bowen_dil2_Blank1 neg,neg,1,2,Blank,
+Unknown,mtab_JBowen_Plants_2023_0524_42,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:C1,5,Bowen_dil2_pool neg,neg,1,2,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_43,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:D1,5,Bowen_dil1_pool pos,pos,0,,,
+Unknown,mtab_JBowen_Plants_2023_0524_44,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:D1,5,Bowen_dil1_pool pos,pos,0,,,
+Unknown,mtab_JBowen_Plants_2023_0524_45,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:D1,5,Bowen_dil1_pool pos,pos,0,1,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_46,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:D2,5,Bowen_dil1_SB1 pos,pos,0,1,SB,1
+Unknown,mtab_JBowen_Plants_2023_0524_47,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:D3,5,Bowen_dil1_Blank2 pos,pos,0,1,Blank,2
+Unknown,mtab_JBowen_Plants_2023_0524_48,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:D4,5,Bowen_dil1_TB3 pos,pos,0,1,TB,3
+Unknown,mtab_JBowen_Plants_2023_0524_49,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:D1,5,Bowen_dil1_pool pos,pos,0,1,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_50,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:D5,5,Bowen_dil1_TB2 pos,pos,0,1,TB,2
+Unknown,mtab_JBowen_Plants_2023_0524_51,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:D6,5,Bowen_dil1_Blank1 pos,pos,0,1,Blank,1
+Unknown,mtab_JBowen_Plants_2023_0524_52,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:D1,5,Bowen_dil1_pool pos,pos,0,1,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_53,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:D1,5,Bowen_dil1_pool neg,neg,1,1,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_54,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:D2,5,Bowen_dil1_SB1 neg,neg,1,1,SB,1
+Unknown,mtab_JBowen_Plants_2023_0524_55,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:D3,5,Bowen_dil1_Blank2 neg,neg,1,1,Blank,2
+Unknown,mtab_JBowen_Plants_2023_0524_56,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:D4,5,Bowen_dil1_TB3 neg,neg,1,1,TB,3
+Unknown,mtab_JBowen_Plants_2023_0524_57,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:D1,5,Bowen_dil1_pool neg,neg,1,1,pool,
+Unknown,mtab_JBowen_Plants_2023_0524_58,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:D5,5,Bowen_dil1_TB2 neg,neg,1,1,TB,2
+Unknown,mtab_JBowen_Plants_2023_0524_59,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:D6,5,Bowen_dil1_Blank1 neg,neg,1,1,Blank,1
+Unknown,mtab_JBowen_Plants_2023_0524_60,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:D1,5,Bowen_dil1_pool neg,neg,1,1,pool,
+Blank,mtab_JBowen_Plants_2023_0524_61,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_pos_HCD_OT_062018_noIC_MS2_7p5k,R:A1,5,MQ Blank pos,pos,0,,,
+Blank,mtab_JBowen_Plants_2023_0524_62,D:\Kujawinski\2023_0524 Bowen_Plants_1,C:\Xcalibur\methods\Training\UPLC_neg_HCD_OT_062018_noIC_MS2_7p5k,R:A1,5,MQ Blank neg,neg,0,,,
