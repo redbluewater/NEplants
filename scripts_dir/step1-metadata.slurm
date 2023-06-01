@@ -16,7 +16,7 @@
 dir="$HOME/NEplants"
 cd "$dir"
 
-in_dir="/vortexfs1/omics/kujawinski/data/NEplants_1"
+in_dir="/vortexfs1/omics/kujawinski/data/NEplants_2_wThresh"
 
 log_dir="$dir/logfiles_dir"
 #setup the places to hold stuff - NO - if this folder does not already 
