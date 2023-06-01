@@ -4,7 +4,7 @@
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=klongnecker@whoi.edu
 #SBATCH --ntasks-per-node=36
-#SBATCH --mem=900gb
+#SBATCH --mem=1100gb
 #SBATCH --time=6:00:00
 #SBATCH --output=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/xcms2.out
 #SBATCH --error=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/xcms2.error
