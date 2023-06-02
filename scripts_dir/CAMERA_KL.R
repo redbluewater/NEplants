@@ -7,11 +7,11 @@ source("https://raw.githubusercontent.com/jorainer/xcms-gnps-tools/master/custom
 wDir <- paste0(args[1])
 setwd(wDir)
 
-# Ion Mode
+# Ion Mode; only one ion mode for this project (pos is too contaminated)
 modes <- c("pos","neg")
 
 # Repeat first parts of CAMERA separately for ion modes
-for (i in 1:2){
+for (i in 1:length(modes)){
 	ionMode <- modes[i]
 # Load the MS OnDisk object combined in previous script
 	load(file=paste0("xcms2_KLtesting-",ionMode,".RData"))
