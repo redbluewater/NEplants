@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --partition=compute
-#SBATCH --job-name=xcms-combine
+#SBATCH --job-name=step3_xcms_combine
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=klongnecker@whoi.edu
 #SBATCH --ntasks=1

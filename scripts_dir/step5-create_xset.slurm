@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --partition=bigmem
-#SBATCH --job-name=create_xset
+#SBATCH --job-name=step5_create_xset
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=klongnecker@whoi.edu
 #SBATCH --ntasks-per-node=1

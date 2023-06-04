@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --partition=compute
-#SBATCH --job-name=meta
+#SBATCH --job-name=step1_metadata
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=klongnecker@whoi.edu 
 #SBATCH --ntasks=1

@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --partition=bigmem
-#SBATCH --job-name=xcms2
+#SBATCH --job-name=step4_xcms2
 #SBATCH --mail-type=FAIL
 #SBATCH --mail-user=klongnecker@whoi.edu
 #SBATCH --ntasks-per-node=36
