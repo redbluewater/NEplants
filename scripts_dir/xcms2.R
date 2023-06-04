@@ -29,7 +29,7 @@ bw <- params['bw',ionMode]
 load(file=paste0(input_dir,"/xset-",ionMode,".RData"))
 
 # Add variable for subsetting (KL note - generic beginning to sample names)
-idx<-which(xset@phenoData$Sample.Name ==  paste0("AE2114 Sarg pool ",ionMode))
+idx<-which(xset@phenoData$Sample.Name ==  paste0("Bowen_dil1_pool",ionMode))
 xset@phenoData$subset.name <- "sample"
 xset@phenoData$subset.name[idx] <- "pool"
 
@@ -65,14 +65,14 @@ save(list=c("processedData"), file = paste0(output_dir,"/xcms2_final-",ionMode,"
 
 # Output all peaks and save
 allPeaks<-chromPeaks(processedData)
-write.csv(allPeaks, file = paste0(output_dir,"/Rules_VI_I_untarg_",ionMode,"_picked.csv"))
+write.csv(allPeaks, file = paste0(output_dir,"/NEplants_",ionMode,"_picked.csv"))
 
 # Output features and save
 featuresDef<-featureDefinitions(processedData)
 featuresIntensities<-featureValues(processedData, value = "into", method = "maxint")
 dataTable<-merge(featuresDef, featuresIntensities, by = 0, all = TRUE)
 dataTable <-dataTable[, !(colnames(dataTable) %in% c("peakidx"))]
-write.csv(dataTable, file = paste0(output_dir,"/Rules_VI_I_untarg_",ionMode,"_aligned.csv"))
+write.csv(dataTable, file = paste0(output_dir,"/NEplants_",ionMode,"_aligned.csv"))
 
 
 #start exporting files for GNPS (adding in 1/19/2022). Messy because I am

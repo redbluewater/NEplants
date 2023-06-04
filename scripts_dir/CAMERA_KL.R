@@ -71,7 +71,12 @@ rm(xset, xsa, xsaF, xsaFI, xsaC, an, processedData)
 
 
 ##from here on out, need both pos and neg mode data together
-# Search for pseudospectra from the positive and the negative sample within specified retention time window. For every result the m/z differences between both samples are matched against rules, for pos and neg ion. If two ions match, the ion annotations are changed (previous annotation is wrong), confirmed or added. Returns the peaklist from one ion mode with recalculated annotations so I repeat to be able to jump between modes.
+# Search for pseudospectra from the positive and the negative sample 
+#within specified retention time window. For every result the m/z 
+#differences between both samples are matched against rules, for pos and
+# neg ion. If two ions match, the ion annotations are changed 
+#(previous annotation is wrong), confirmed or added. Returns the 
+#peaklist from one ion mode with recalculated annotations so I repeat to be able to jump between modes.
 
 xsa.pos_all <- combinexsAnnos(xsa.pos, xsa.neg, pos=TRUE, tol=2, ruleset=NULL)
 xsa.neg_all <- combinexsAnnos(xsa.pos, xsa.neg, pos=FALSE, tol=2, ruleset=NULL)
