@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --partition=compute
 #SBATCH --job-name=step3_xcms_combine
-#SBATCH --mail-type=FAIL
+#SBATCH --mail-type=FAIL,END
 #SBATCH --mail-user=klongnecker@whoi.edu
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=36
