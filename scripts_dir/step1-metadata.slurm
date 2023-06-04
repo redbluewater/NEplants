@@ -18,12 +18,8 @@ cd "$dir"
 
 in_dir="/vortexfs1/omics/kujawinski/data/NEplants_2_wThresh"
 
+#folder to hold files must exist before you get started, or else the script will fail
 log_dir="$dir/logfiles_dir"
-#setup the places to hold stuff - NO - if this folder does not already 
-#exist before you get started, the script will fail
-#if [ ! -d "$log_dir" ]; then
-#    mkdir -p "$log_dir"
-#fi
 
 CONDA_BASE=$(conda info --base)
 source $CONDA_BASE/etc/profile.d/conda.sh
