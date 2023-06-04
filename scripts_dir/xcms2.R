@@ -34,7 +34,7 @@ xset@phenoData$subset.name <- "sample"
 xset@phenoData$subset.name[idx] <- "pool"
 
 # RT correction
-prm <- ObiwarpParam(subset= which(xset@phenoData$subset.name == "pool"), subsetAdjust="average", binSize = 0.05,distFun = "cor", gapInit = 0.3, gapExtend = 2.4)
+prm <- ObiwarpParam(subset= which(xset@phenoData$subset.name == "pool"), subsetAdjust="average", binSize = 0.001,distFun = "cor", gapInit = 0.3, gapExtend = 2.4)
 xset_obi <- adjustRtime(xset, param = prm, msLevel = 1L)
 
 save(list=c("xset_obi"), file = paste0(output_dir,"/xcms2_obi-",ionMode,".RData"))
