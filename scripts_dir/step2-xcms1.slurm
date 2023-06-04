@@ -18,7 +18,7 @@
 dir="$HOME/NEplants"
 cd "$dir"
 
-in_dir="/vortexfs1/omics/kujawinski/data/NEplants_2"
+in_dir="/vortexfs1/omics/kujawinski/data/NEplants_2_wThresh"
 out_dir="$dir/output_dir/$SLURM_JOB_NAME"
 log_dir="$dir/logfiles_dir/$SLURM_JOB_NAME" #need a folder to hold the output results text files - there are zillions of them. 
 
