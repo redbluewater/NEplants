@@ -4,40 +4,31 @@ Getting started, Krista Longnecker, 31 May 2023
 
 # 
 4 June 2023\
-Full set of commands in /KujawinskiLaboratory/UntargCode ...this is just highlights related to this project (which is only negative ion mode data).
+Full set of commands in /KujawinskiLaboratory/UntargCode ...this is just highlights related to this project (which is only negative ion mode data) so I can easily get the commands I need. The full description remaines in UntargCode.
 
 ## Some steps before getting into the R/XCMS work
 1. Convert the .RAW files from the mass spectrometer into mzML files using msConvert (use this script in R: ``ms_convert_tool_Lumos_v2.r``)
 2. Use SCP to transfer those files to Poseidon (we are putting the files into this folder: /vortexfs1/omics/kujawinski/data)
-3. Make a CSV file that contains the file names, ion mode, and good data markers. We do this from the sequence file that is created during the sample run and then add columns for 'ionMode' (can be pos or neg) and goodData (where we use 1 to keep data, and 0 to ignore a file, see *exampleInfoFile.csv*)
-4. Put this CSV file into the folder with the mzML files on Poseidon (again with SCP). It will be used to generate a metadata file used in various points of the analysis.
+3. Make a CSV file that contains the file names, ion mode, and good data markers (mtab_JBowen_PlantMetabolomics_052423.KL.csv).
+4. Put this CSV file into the folder with the mzML files on Poseidon (again with SCP). 
 
 ## How to access Poseidon, WHOI's HPC computing environment
-I used a Git Bash terminal window to log into poseidon. From WHOI's internal Information Systems' website, I learned I needed the following command:
+I used a Git Bash terminal window to log into poseidon:
 ```ssh username@poseidon.whoi.edu```
 The password is my WHOI Active Directory password. You have to be logged into the WHOI VPN for this to work. 
 
 Once you are logged into Poseidon, activate the conda module with ```module load anaconda/5.1```
 
-
 ## Moving around code - Windows 10 - GitHub - Poseidon (Krista's setup)
-I forked Erin's GitHub repository and then used Git Bash (in a separate window from the bash window I use to access Poseidon) to first clone the GitHub repository onto my local desktop computer. On my local computer I use Geany to edit the text files. To get the files back to GitHub, I first had to futz around with setting up an SSH key in GitHub as I had not done that yet. I settled on using this set of commands to put the files I edit locally back into GitHub:
+Edit files on my local computer and then use git bash to move them back into GitHub:
 
 ```git add -A```\
 ```git commit -am "Brief description goes here"``` (can use the bit in quotes to describe the update)\
 ```git push```\
 (enter the passcode I use to get files to GitHub)
 
-Then, in the bash window where I have Poseidon open, the first time I need to make a folder to hold the new repository. Then, clone that repository:\
-```git clone https://github.com/KujawinskiLaboratory/UntargCode```
-
 For later updates, just change to the folder for this repository (UntargCode) and then use this command to move the files from GitHub to the HPC:\
 ```git pull https://github.com/KujawinskiLaboratory/UntargCode.git``` or just ```git pull```
-
-Remember that if I edit the README.md file here in GitHub (online), I need to do a local ```git pull``` before I can push any edits back to GitHub. I suspect there is a way around this with a more specific git command, but I haven't bothered to look into that.
-
-In the event that you want to start all over again from the files that are in GitHub, from Poseidon enter this\
-```git reset --hard HEAD```
 
 ## Step 1: Create metadata
 Set this up to send in ionMode as a variable so I don't have to edit all the slurm scripts each time I change ion mode\
