@@ -6,8 +6,8 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=4gb
 #SBATCH --time=6:00:00
-#SBATCH --output=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/xcms1.out
-#SBATCH --error=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/xcms1.error
+#SBATCH --output=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/step2_xcms1.out
+#SBATCH --error=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/step2_xcms1.error
 #SBATCH --array=1-68%40 
 
 #this is the numbers for Erin's 502 files do 1 to 502 files in batches of 40. If I use this, update to match what I have

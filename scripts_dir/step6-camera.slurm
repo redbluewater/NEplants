@@ -6,8 +6,8 @@
 #SBATCH --ntasks-per-node=12
 #SBATCH --mem=20gb
 #SBATCH --time=6:00:00
-#SBATCH --output=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/camera.out
-#SBATCH --error=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/camera.error
+#SBATCH --output=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/step6_camera.out
+#SBATCH --error=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/step6_camera.error
 
 dir="$HOME/NEplants"
 cd "$dir"

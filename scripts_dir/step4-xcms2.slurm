@@ -6,8 +6,8 @@
 #SBATCH --ntasks-per-node=36
 #SBATCH --mem=2000gb
 #SBATCH --time=6:00:00
-#SBATCH --output=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/xcms2.out
-#SBATCH --error=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/xcms2.error
+#SBATCH --output=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/step4_xcms2.out
+#SBATCH --error=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/step4_xcms2.error
 
 dir="$HOME/NEplants"
 cd "$dir"

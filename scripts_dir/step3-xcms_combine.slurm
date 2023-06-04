@@ -7,8 +7,8 @@
 #SBATCH --cpus-per-task=36
 #SBATCH --mem=175gb
 #SBATCH --time=01:00:00
-#SBATCH --output=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/xcms-combine.out
-#SBATCH --error=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/xcms-combine.error
+#SBATCH --output=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/step3_xcms-combine.out
+#SBATCH --error=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/step3_xcms-combine.error
 
 dir="$HOME/NEplants"
 
