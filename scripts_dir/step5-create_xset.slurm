@@ -6,8 +6,8 @@
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=200gb
 #SBATCH --time=1:00:00
-#SBATCH --output=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/step5_create_xset.out
-#SBATCH --error=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/step5_create_xset.error
+#SBATCH --output=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/step5.out
+#SBATCH --error=/vortexfs1/home/klongnecker/NEplants/logfiles_dir/step5.error
  
 dir="$HOME/NEplants"
 cd "$dir"
