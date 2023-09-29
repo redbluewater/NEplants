@@ -16,7 +16,7 @@
 dir="$HOME/NEplants"
 cd "$dir"
 
-in_dir="/vortexfs1/omics/kujawinski/data/NEplants_2_wThresh"
+in_dir="/vortexfs1/omics/kujawinski/data/NEplants2_wThresh"
 
 #folder to hold files must exist before you get started, or else the script will fail
 log_dir="$dir/logfiles_dir"
