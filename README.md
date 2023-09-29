@@ -4,58 +4,12 @@ Getting started, Krista Longnecker, 31 May 2023
 
 # 
 4 June 2023\
-Full set of commands in /KujawinskiLaboratory/UntargCode ...this is just highlights related to this project (which is only negative ion mode data) so I can easily get the commands I need. The full description remaines in UntargCode.
+Used this branch to process the data from the samples that were analyzed at WHOI on the Lumos in May 2023, and Krista Longnecker did the data analysis in June 2023. 
 
-## Some steps before getting into the R/XCMS work
-1. Convert the .RAW files from the mass spectrometer into mzML files using msConvert (use this script in R: ``ms_convert_tool_Lumos_v2.r``)
-2. Use SCP to transfer those files to Poseidon (we are putting the files into this folder: /vortexfs1/omics/kujawinski/data)
-3. Make a CSV file that contains the file names, ion mode, and good data markers (mtab_JBowen_PlantMetabolomics_052423.KL.csv).
-4. Put this CSV file into the folder with the mzML files on Poseidon (again with SCP). 
+29 September 2023\
+Move the NEplants_1 analysis to a branch that I can use the default branch for the next set of samples that were loaded on the Lumos in September 2023.
 
-## How to access Poseidon, WHOI's HPC computing environment
-I used a Git Bash terminal window to log into poseidon:
-```ssh username@poseidon.whoi.edu```
-The password is my WHOI Active Directory password. You have to be logged into the WHOI VPN for this to work. 
-
-Once you are logged into Poseidon, activate the conda module with ```module load anaconda/5.1```
-
-## Moving around code - Windows 10 - GitHub - Poseidon (Krista's setup)
-Edit files on my local computer and then use git bash to move them back into GitHub:
-
-```git add -A```\
-```git commit -am "Brief description goes here"``` (can use the bit in quotes to describe the update)\
-```git push```\
-(enter the passcode I use to get files to GitHub)
-
-For later updates, just change to the folder for this repository (UntargCode) and then use this command to move the files from GitHub to the HPC:\
-```git pull https://github.com/KujawinskiLaboratory/UntargCode.git``` or just ```git pull```
-
-## Step 1: Create metadata
-Set this up to send in ionMode as a variable so I don't have to edit all the slurm scripts each time I change ion mode\
-```sbatch --export=ionMode="neg" scripts_dir/step1-metadata.slurm```
-
-Check how many files you have 
-```wc -l metadata_neg.txt```
-
-Use this number in Step 2 to set the total number of array jobs that will be run.
-
-## Step 2: peak picking and peak shape evaluation
-```sbatch --export=ionMode="neg" scripts_dir/step2-xcms1.slurm```
-
-## Step 3: combine picked peaks
-To speed up peak picking, we performed peak picking as an array. Now combine into a single MS OnDisk object
-
-```sbatch --export=ionMode="neg" scripts_dir/step3-xcms_combine.slurm```
-
-## Step 4: perform retention time correction, grouping and fill peaks
-```sbatch --export=ionMode="neg" scripts_dir/step4-xcms2.slurm```
-
-## Step 5: Create an xset object 
-```sbatch --export=ionMode="neg" scripts_dir/step5-create_xset.slurm```
-
-## Step 6: Use CAMERA to create pseudospectra
-In this repositroy, thie following has been modified to only process neg mode data.\
-```sbatch scripts_dir/step6-camera.slurm```
+Leave the file descriptions here in case they are useful later.
 
 #
 ## Description of the files
