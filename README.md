@@ -7,7 +7,7 @@ Getting started, Krista Longnecker, 31 May 2023
 Used this branch to process the data from the samples that were analyzed at WHOI on the Lumos in May 2023, and Krista Longnecker did the data analysis in June 2023. 
 
 29 September 2023\
-Move the NEplants_1 analysis to a branch that I can use the default branch for the next set of samples that were loaded on the Lumos in September 2023.
+Move the NEplants_1 analysis to a branch that I can use the default branch for the next set of samples that were loaded on the Lumos in September 2023. One added note - I also changed the name of the raw data folder on the HPC for the first set of samples. It is now called NEplants1_wThresh. I did *not* update the code as I do not plan to rerun those samples.
 
 Leave the file descriptions here in case they are useful later.
 
