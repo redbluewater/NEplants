@@ -1,6 +1,7 @@
 # NEplants
 Plant project with Northeastern University\
-Getting started, Krista Longnecker, 31 May 2023
+Getting started, Krista Longnecker, 31 May 2023\
+Updated 12 October 2023 to start pushing commits from @redbluewater
 
 # 
 4 June 2023\
