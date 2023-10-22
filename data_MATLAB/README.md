@@ -1,3 +1,13 @@
+# Update 22 October 2023
+Matt Costa is an R user, so to convert the mat file to R, I sent him this code to use in R:
+```
+install.packages("R.matlab")
+library(R.matlab)
+data <- readMat("NEplants_neg_aligned.2023.10.11.mat")
+```
+
+However, I just learned that the sInfo matrix does not get exported so there is no way to link sample with filename. Hence I just uploaded an Excel file (```NEplants_exportMetadata_from_sInfo_forMatt.2023.10.22.xlsx```) with the metadata for Matt.
+
 # What are the variables in the *mat file?
 Krista Longnecker, 12 October 2023
 
