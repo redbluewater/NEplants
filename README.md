@@ -1,7 +1,6 @@
 # NEplants
 Plant project with Northeastern University\
 Getting started, Krista Longnecker, 31 May 2023\
-Updated 12 October 2023 to start pushing commits from @redbluewater
 
 # 
 4 June 2023\
@@ -81,3 +80,9 @@ The final set of files will in the /output_dir/xcms2/ folder and are described a
   * This is an mgf file, which can be submitted to GNPS; this version contains every MS2 spectra 
 * 'ms2spectra_combined_neg.mgf'
   * This is an mgf file, which can be submitted to GNPS; this version combines MS2 spectra based on the metric set at step 4.
+ 
+#
+Updated 12 October 2023 to start pushing commits from @redbluewater
+
+#
+Updated 13 November 2023 to calculate the elemental formulas.
