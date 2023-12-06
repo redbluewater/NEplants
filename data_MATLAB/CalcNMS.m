@@ -1,10 +1,23 @@
 %Plant project with Jennifer Bowen's group at Northeastern
 %Data are Lumos, negative ion mode, untargeted analysis
 %Calculate the NMS ordinations to provide a quick look at the pattern
-%Krista Longnecker 2/21/2011; dupated 10/11/2023 to use for plant project
+%Krista Longnecker 2/21/2011; updated 10/11/2023 to use for plant project
+%
+%notes on functions...this code will require a few things that I am not 
+%putting onto GitHub:
+% 1. The MATLAB statistics toolox
+% 2. The Fathom toolbox which is available at Mathworks file exchange:
+% https://www.mathworks.com/matlabcentral/fileexchange/68518-fathom-toolbox-for-matlab
+% 3. I use cbrewer for colors (also available at the Mathworks file
+% exchange); though can simply change to a different option for colors
+%https://www.mathworks.com/matlabcentral/fileexchange/58350-cbrewer2?s_tid=srchtitle
+% 4. title_up.m which I will upload to GitHub, but is a simple way to put a
+% title centered on the plots. Perhaps MATLAB has corrected this, but it
+% used to be harder to do this nicely.
+
 clear all
 close all
-load NEplants_neg_aligned.2023.10.11.mat  
+load NEplants_neg_aligned.2023.12.06.mat  
 
 %set up some trimming to allow only a subset of the data to be analyzed
 if 0
@@ -144,7 +157,7 @@ end
 
 title_up('Bowen samples, round 2, October 2023')
 set(gcf,'paperpositionmode','auto')
-saveas(gcf,'Bowen_plants2_NMSplots.2023.10.11.pdf','pdf')
+saveas(gcf,'Bowen_plants2_NMSplots.2023.12.06.pdf','pdf')
 
 
 if 0

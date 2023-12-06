@@ -1,4 +1,5 @@
 %calculate elemental formulas for the Bowen/NEplants2 dataset
+%Remeber this will require older MATLAB (2017b will work fine)
 %Krista Longnecker, 13 November 2023
 clear all
 close all
@@ -7,7 +8,7 @@ close all
 %here: https://github.com/redbluewater/findformula
 path(path,'C:\Users\klongnecker\Documents\Current projects\MSdataAnalysis\listOrgCpds');
 
-load NEplants_neg_aligned.2023.10.11.mat
+load NEplants_neg_aligned.2023.12.06.mat
 
 %Need to prune out the isomers as the script assumes all the mz values are
 %unique, which may or may not be true. Turns out that in this dataset,
@@ -42,6 +43,6 @@ csvForm.AI = AI;
 csvForm.AImod = AImod;
 csvForm.NOSC = NOSC;
 
-writetable(csvForm,'NEplants2_formulas.2023.11.13.csv');
+writetable(csvForm,'NEplants2_formulas.2023.12.06.csv');
 
 
